@@ -4,6 +4,51 @@ body {
 
 .project-grid {
     display: grid;
+    grid-template-areas: 
+    "eth eth alphabet"
+    "eth eth traveler"
+    "cube astro traveler"
+    "cube astro traveler"
+    "cup insta insta"
+    "cup insta insta"
+    "foam foam dimensional"
+    "foam foam dimensional";
+}
+
+#eth {
+    grid-area: eth;
+}
+
+#alphabet {
+    grid-area: alphabet;
+}
+
+#cube {
+    grid-area: cube;
+}
+
+#astro {
+    grid-area: astro;
+}
+
+#traveler {
+    grid-area: traveler;
+}
+
+#cup {
+    grid-area: cup;
+}
+
+#insta {
+    grid-area: insta;
+}
+
+#foam {
+    grid-area: foam;
+}
+
+#dimensional {
+    grid-area: dimensional;
 }
 
 .project {
