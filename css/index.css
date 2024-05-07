@@ -27,12 +27,13 @@ body {
   .navbar .right {
     width: 400px;
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-end;
     align-items: center;
   }
   .navbar .right a {
     text-decoration: none;
     color: black;
+    margin-left: 80px;
   }
   .navbar .right a:hover {
     text-decoration: underline;
@@ -88,7 +89,6 @@ body {
     text-decoration: none;
     color: black;
     margin: 16px 0;
-    text-decoration: underline;
   }
 
   .project-grid {
